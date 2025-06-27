@@ -9,12 +9,18 @@ const RestaurantDetails: React.FC<RestaurantDetailsProps> = ({
   averagePrice,
 }) => {
   const nameId = `restaurant-name-${id}`;
-  
+  const formatedAmount = new Intl.NumberFormat('fr-FR', {
+    style: 'currency',
+    currency: averagePrice.currency,
+    minimumFractionDigits: 0,
+    maximumFractionDigits: 0,
+  }).format(averagePrice.amount/100);
+
   return (
     <div>
       <h2 id={nameId} className={styles.name}>{name}</h2>
       <address className={styles.address}>{address.street} {address.postalCode} {address.locality}</address>
-      <p className={styles.price}>{averagePrice.amount} {averagePrice.currency}</p>
+      <p className={styles.price}>{`${formatedAmount} average price`}</p>
     </div>
   );
 };
