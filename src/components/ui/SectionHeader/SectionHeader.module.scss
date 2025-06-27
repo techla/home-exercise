@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: var(--core-space-spacing-07);
+  border-bottom: 1px solid var(--semantic-color-border);
+  background: var(--semantic-color-background-secondary);
+}
+
+.collapsed {
+  display: none;
+}

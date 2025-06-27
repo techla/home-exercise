@@ -1,0 +1,41 @@
+@import '@/styles/breakpoints';
+
+.cityGrid {
+  display: grid;
+  row-gap: var(--core-space-grid-gap-small);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  
+  grid-template-columns: 1fr;
+  
+  @include tablet-up {
+    column-gap: var(--core-space-grid-gap-small);
+    row-gap: var(--core-space-grid-gap-medium);
+    grid-template-columns: repeat(2, 1fr);
+    
+    > li:first-child {
+      grid-column: span 2;
+    }
+  }
+  
+  @include desktop-up {
+    gap: var(--core-space-grid-gap-small);
+    grid-template-columns: 1fr 1fr;
+
+    > li:first-child {
+      grid-column: 1;
+      grid-row: span 2;
+    }
+    
+    > li:nth-child(2) {
+      grid-column: 2;
+      grid-row: 1;
+    }
+    
+    > li:nth-child(3) {
+      grid-column: 2;
+      grid-row: 2;
+    }
+  }
+}

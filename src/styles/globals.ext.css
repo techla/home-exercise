@@ -1,0 +1,11 @@
+:root {
+  --core-space-grid-gap-small: 0.9rem;
+  --core-space-grid-gap-medium: 1.4rem;
+  --core-space-grid-gap-large: 2.3rem;
+  --core-space-grid-gap-xlarge: 2.4rem;
+  
+  --core-component-button-height: 2.25rem;
+
+  --core-breakpoint-tablet: 23.5rem;        /* 376px - tablet */
+  --core-breakpoint-desktop: 46.5rem;       /* 744px - desktop */
+}

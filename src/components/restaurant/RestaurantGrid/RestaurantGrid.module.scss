@@ -1,0 +1,24 @@
+@import '@/styles/breakpoints';
+
+.restaurantGrid {
+  display: grid;
+  row-gap: var(--core-space-grid-gap-large);
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  
+  grid-template-columns: 1fr;
+  
+  @include tablet-up {
+    row-gap: var(--core-space-grid-gap-xlarge);
+    column-gap: var(--core-space-grid-gap-small);
+
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  @include desktop-up {
+    column-gap: var(--core-space-grid-gap-small);
+    row-gap: var(--core-space-grid-gap-large);
+    grid-template-columns: repeat(3, 1fr);
+  }
+}

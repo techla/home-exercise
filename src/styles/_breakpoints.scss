@@ -1,0 +1,28 @@
+/**
+ * Breakpoints centralisés
+ * Source unique de vérité pour tous les breakpoints du projet
+ * Synchronisé avec les design tokens de globals.ext.css
+ */
+
+// Variables breakpoints
+$breakpoint-tablet: 23.5rem;   // 376px - correspond à --core-breakpoint-tablet
+$breakpoint-desktop: 46.5rem;  // 744px - correspond à --core-breakpoint-desktop
+
+// Mixins pour les media queries utilisées dans le projet
+@mixin tablet-up {
+  @media (min-width: $breakpoint-tablet) {
+    @content;
+  }
+}
+
+@mixin desktop-up {
+  @media (min-width: $breakpoint-desktop) {
+    @content;
+  }
+}
+
+@mixin tablet-only {
+  @media (min-width: $breakpoint-tablet) and (max-width: #{$breakpoint-desktop - 0.0625rem}) {
+    @content;
+  }
+}

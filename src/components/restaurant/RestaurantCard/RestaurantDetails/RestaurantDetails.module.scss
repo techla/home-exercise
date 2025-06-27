@@ -1,0 +1,21 @@
+.name {
+  margin-top: var(--core-space-spacing-03);
+  margin-bottom: var(--core-space-spacing-04);
+  font-size: var(--semantic-typography-font-size-text-t1);
+  font-weight: var(--core-typography-font-weight-medium);
+  color: var(--core-color-neutrals-n900);
+}
+
+.address {
+  padding-bottom: var(--core-space-spacing-03);
+  font-size: var(--semantic-typography-font-size-text-t3);
+  font-weight: var(--core-typography-font-weight-default);
+  font-style: normal;
+  color: var(--core-color-neutrals-n600);
+}
+
+.price {
+  font-size: var(--semantic-typography-font-size-text-t3);
+  font-weight: var(--core-typography-font-weight-default);
+  color: var(--core-color-neutrals-n600);
+}

@@ -1,0 +1,28 @@
+@import '@/styles/breakpoints';
+
+.gridItem {
+  list-style: none;
+  width: 100%;
+  
+  aspect-ratio: 5 / 4;
+  
+  @include tablet-only {
+    aspect-ratio: 6 / 4;
+  }
+}
+
+.position-0 {
+  @include tablet-only {
+    aspect-ratio: 10 / 4;
+  }
+  
+  @include desktop-up {
+    aspect-ratio: 1 / 1;
+  }
+}
+
+.gridItem:not(.position-0) {
+  @include desktop-up {
+    aspect-ratio: 2 / 1;
+  }
+}
