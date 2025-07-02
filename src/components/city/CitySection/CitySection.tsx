@@ -7,12 +7,18 @@ import type { CityProps } from './CitySection.types';
 import styles from './CitySection.module.scss';
 
 const CitySection: React.FC<CityProps> = ({ cities, currentCityName }) => {
+  const sectionId = 'city-section';
+  
   return (
-    <section className={styles.section}>
+    <section 
+      className={styles.section}
+      id={sectionId}
+      role="region"
+    >
       <SectionHeader title={currentCityName} toggleable={true}>
         <CityGrid>
-          {cities.map((city, index) => (
-            <CityGridItem key={city.id} position={index}>
+          {cities.map((city) => (
+            <CityGridItem key={city.id}>
               <CityCard {...city} />
             </CityGridItem>
           ))}

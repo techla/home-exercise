@@ -44,7 +44,7 @@
             "ratingValue": 9.6,
             "reviewCount": 299
           },
-          "bestOffer": null
+          "offer": null
         },
         {
           "id": "bca2c752-0887-4d4c-b195-f0402d7c1ef5",
@@ -65,7 +65,7 @@
             "ratingValue": 9.6,
             "reviewCount": 675
           },
-          "bestOffer": null
+          "offer": null
         },
         {
           "id": "e3a4ef96-0b29-46b5-8ac6-66788a4c4435",
@@ -86,7 +86,7 @@
             "ratingValue": 9.4,
             "reviewCount": 3561
           },
-          "bestOffer": null
+          "offer": null
         },
         {
           "id": "d4627819-b3a6-489d-be76-2e1156f132b2",
@@ -107,7 +107,7 @@
             "ratingValue": 9.2,
             "reviewCount": 464
           },
-          "bestOffer": null
+          "offer": null
         },
         {
           "id": "73b6748d-930f-4615-9768-7efd6e983b66",
@@ -128,7 +128,7 @@
             "ratingValue": 9.5,
             "reviewCount": 397
           },
-          "bestOffer": "-50%"
+          "offer": "-50%"
         },
         {
           "id": "c79fac7e-58c8-4092-85bb-50fe85aefde4",
@@ -149,7 +149,7 @@
             "ratingValue": 9.3,
             "reviewCount": 552
           },
-          "bestOffer": "-50%"
+          "offer": "-50%"
         },
         {
           "id": "f1003d26-06ec-446b-ab80-d4ef67428556",
@@ -170,7 +170,7 @@
             "ratingValue": 9.3,
             "reviewCount": 20973
           },
-          "bestOffer": "-50%"
+          "offer": "-50%"
         },
         {
           "id": "6644f596-f20f-4f76-96cf-8197aad66811",
@@ -191,7 +191,7 @@
             "ratingValue": 9.1,
             "reviewCount": 3116
           },
-          "bestOffer": null
+          "offer": null
         },
         {
           "id": "1b076cb6-6087-4b14-a319-4efb3ab579be",
@@ -212,7 +212,7 @@
             "ratingValue": 9.6,
             "reviewCount": 1227
           },
-          "bestOffer": "-30%"
+          "offer": "-30%"
         },
         {
           "id": "55801c92-51d1-4fed-8a39-2cd92f5fa7d5",
@@ -233,7 +233,7 @@
             "ratingValue": 9.4,
             "reviewCount": 179
           },
-          "bestOffer": "-50%"
+          "offer": "-50%"
         }
       ]
     },
@@ -259,7 +259,7 @@
             "ratingValue": 9.3,
             "reviewCount": 1969
           },
-          "bestOffer": "-30%"
+          "offer": "-30%"
         },
         {
           "id": "7b6841d6-6757-4144-92c6-dc4eca387876",
@@ -280,7 +280,7 @@
             "ratingValue": 8.9,
             "reviewCount": 251
           },
-          "bestOffer": "-50%"
+          "offer": "-50%"
         },
         {
           "id": "5dc50d53-0b08-4589-89f7-e0b9a6dbaf98",
@@ -301,7 +301,7 @@
             "ratingValue": 9.6,
             "reviewCount": 612
           },
-          "bestOffer": null
+          "offer": null
         },
         {
           "id": "673a9142-9e4e-4264-add4-bb5704cff4c8",
@@ -322,7 +322,7 @@
             "ratingValue": 9.6,
             "reviewCount": 3874
           },
-          "bestOffer": null
+          "offer": null
         },
         {
           "id": "21ea6d21-4b5c-4214-94a8-2280d99fbeee",
@@ -343,7 +343,7 @@
             "ratingValue": 9.3,
             "reviewCount": 4692
           },
-          "bestOffer": "-30%"
+          "offer": "-30%"
         },
         {
           "id": "b21105cc-5ad1-4bd8-8326-37fe45068cd0",
@@ -364,7 +364,7 @@
             "ratingValue": 9.3,
             "reviewCount": 972
           },
-          "bestOffer": "-30%"
+          "offer": "-30%"
         },
         {
           "id": "183946c6-8335-4ee6-96d9-64456e726359",
@@ -385,7 +385,7 @@
             "ratingValue": 9.5,
             "reviewCount": 289
           },
-          "bestOffer": null
+          "offer": null
         },
         {
           "id": "2f56b0a3-05ad-4bb9-a31b-b10a40d00c50",
@@ -406,7 +406,7 @@
             "ratingValue": 9.4,
             "reviewCount": 1119
           },
-          "bestOffer": "-30%"
+          "offer": "-30%"
         },
         {
           "id": "1431a7ae-fcdd-473e-b96d-cd31486877ff",
@@ -427,7 +427,7 @@
             "ratingValue": 9.4,
             "reviewCount": 1887
           },
-          "bestOffer": "-50%"
+          "offer": "-50%"
         },
         {
           "id": "5ee438bb-ff51-469b-a37d-4cef0aba3c5d",
@@ -448,7 +448,7 @@
             "ratingValue": 9.3,
             "reviewCount": 438
           },
-          "bestOffer": null
+          "offer": null
         }
       ]
     },
@@ -474,7 +474,7 @@
             "ratingValue": 9,
             "reviewCount": 1958
           },
-          "bestOffer": "-30%"
+          "offer": "-30%"
         },
         {
           "id": "8f5d7095-ceb0-42ef-bb98-7cf82c08dc6d",
@@ -495,7 +495,7 @@
             "ratingValue": 8.9,
             "reviewCount": 1382
           },
-          "bestOffer": "-30%"
+          "offer": "-30%"
         },
         {
           "id": "41044e82-ad57-445e-a3b1-e30bc1c69c48",
@@ -516,7 +516,7 @@
             "ratingValue": 8.9,
             "reviewCount": 1831
           },
-          "bestOffer": "-30%"
+          "offer": "-30%"
         },
         {
           "id": "9a0d6839-d02b-4b4a-9418-7109ad0cfbb1",
@@ -537,7 +537,7 @@
             "ratingValue": 8.7,
             "reviewCount": 604
           },
-          "bestOffer": "-30%"
+          "offer": "-30%"
         },
         {
           "id": "ec224243-11a6-4636-aa0a-0f4360413d66",
@@ -558,7 +558,7 @@
             "ratingValue": 9.4,
             "reviewCount": 1176
           },
-          "bestOffer": null
+          "offer": null
         },
         {
           "id": "906aea28-a41a-4ea9-a85a-4709a2fc3dee",
@@ -579,7 +579,7 @@
             "ratingValue": 8.6,
             "reviewCount": 525
           },
-          "bestOffer": "-30%"
+          "offer": "-30%"
         },
         {
           "id": "647111a5-7c8b-4796-9a5a-2cb3e706356e",
@@ -600,7 +600,7 @@
             "ratingValue": 9.4,
             "reviewCount": 1268
           },
-          "bestOffer": "-30%"
+          "offer": "-30%"
         },
         {
           "id": "b74a61ad-33ec-4faa-be23-442fe6aac9ee",
@@ -621,7 +621,7 @@
             "ratingValue": 9.1,
             "reviewCount": 1250
           },
-          "bestOffer": null
+          "offer": null
         },
         {
           "id": "578bd41f-580c-472a-be7b-dced45b22a17",
@@ -642,7 +642,7 @@
             "ratingValue": 9.4,
             "reviewCount": 18
           },
-          "bestOffer": null
+          "offer": null
         },
         {
           "id": "a74cf169-e930-4475-8d34-e7894229fdc8",
@@ -663,7 +663,7 @@
             "ratingValue": 9.3,
             "reviewCount": 659
           },
-          "bestOffer": "-30%"
+          "offer": "-30%"
         }
       ]
     },
@@ -689,7 +689,7 @@
             "ratingValue": 9.6,
             "reviewCount": 3652
           },
-          "bestOffer": "-30%"
+          "offer": "-30%"
         },
         {
           "id": "af52b9a2-883d-4457-ae52-ec3af2a99854",
@@ -710,7 +710,7 @@
             "ratingValue": 9.1,
             "reviewCount": 869
           },
-          "bestOffer": "-50%"
+          "offer": "-50%"
         },
         {
           "id": "1d0f65af-27e8-47c1-9ebc-0e25bb5be80b",
@@ -731,7 +731,7 @@
             "ratingValue": 9.1,
             "reviewCount": 6066
           },
-          "bestOffer": "-50%"
+          "offer": "-50%"
         },
         {
           "id": "0624cd5a-550d-4ed4-912e-734dcb763124",
@@ -752,7 +752,7 @@
             "ratingValue": 9.8,
             "reviewCount": 8541
           },
-          "bestOffer": "-50%"
+          "offer": "-50%"
         },
         {
           "id": "a702bf80-bfef-4570-86b5-d01ab22f7f5c",
@@ -773,7 +773,7 @@
             "ratingValue": 9.3,
             "reviewCount": 382
           },
-          "bestOffer": "-20%"
+          "offer": "-20%"
         },
         {
           "id": "2ae238ef-5f4f-4117-9dae-364f0f9757a5",
@@ -794,7 +794,7 @@
             "ratingValue": 9.2,
             "reviewCount": 185
           },
-          "bestOffer": "-30%"
+          "offer": "-30%"
         },
         {
           "id": "2af45257-4aa7-4fa7-854b-f55b94f40a87",
@@ -815,7 +815,7 @@
             "ratingValue": 9.4,
             "reviewCount": 493
           },
-          "bestOffer": "-20%"
+          "offer": "-20%"
         },
         {
           "id": "f61c5bf2-5f40-4ed6-92c8-b4a6da6c2352",
@@ -836,7 +836,7 @@
             "ratingValue": 9.6,
             "reviewCount": 214
           },
-          "bestOffer": "-50%"
+          "offer": "-50%"
         },
         {
           "id": "4e521754-a4f1-473c-b1e4-03cbea737442",
@@ -857,7 +857,7 @@
             "ratingValue": 8.7,
             "reviewCount": 1993
           },
-          "bestOffer": "-50%"
+          "offer": "-50%"
         },
         {
           "id": "677b8f70-71f9-4938-ab69-963f539399d2",
@@ -878,7 +878,7 @@
             "ratingValue": 9.6,
             "reviewCount": 2379
           },
-          "bestOffer": "-50%"
+          "offer": "-50%"
         }
       ]
     }

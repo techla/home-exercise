@@ -6,8 +6,6 @@ import { GET_CITIES_AND_RESTAURANTS } from '../../../graphql/queries/getCitiesAn
 import { GetCitiesAndRestaurantsResponse, GetRestaurantsVars } from '../../../graphql/queries/types';
 import { RestaurantSection } from '@/components/restaurant/RestaurantSection/RestaurantSection';
 import { CitySection } from '@/components/city/CitySection/CitySection';
-import '../../styles/custom.css';
-import '../../styles/globals.ext.css';
 
 type CityPageProps = { initialApolloState: NormalizedCacheObject, cityId: string };
 
@@ -28,16 +26,16 @@ const CityPage: NextPage<CityPageProps> = ({initialApolloState, cityId: propCity
   });
 
   if (loading) {
-    return <div>Loading...</div>;
+    return <div aria-label="Loading content">Loading content</div>;
+  }
+
+  if (!data) {
+    return <div aria-label="No data available">No data available</div>;
   }
 
   const filteredCities = data!.getCities.filter(city => city.id !== cityID);
   const currentCityName = data!.getCities.find(city => city.id === cityID)!.name;
   const restaurants = data!.getRestaurants;
-
-  if (!restaurants || !filteredCities || !currentCityName) {
-    return <div>No data found</div>;
-  }
 
   return (
     <>

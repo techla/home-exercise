@@ -12,7 +12,7 @@ const resolvers = {
     getCities: async () => {
       return DATA.cities;
     },
-    getRestaurants: async (_: any, args: { cityID: string }) => {
+    getRestaurants: async (_: unknown, args: { cityID: string }) => {
       const cityRestaurants = DATA.restaurantsByCities.find((results) => {
         return results.cityId === Number(args.cityID);
       });

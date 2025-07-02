@@ -2,11 +2,12 @@ import type { RestaurantGridProps } from './RestaurantGrid.types';
 
 import styles from './RestaurantGrid.module.scss';
 
-const RestaurantGrid: React.FC<RestaurantGridProps> = ({ children }) => {
+const RestaurantGrid: React.FC<RestaurantGridProps> = (props) => {
   return (
-    <ul className={styles.restaurantGrid} data-testid="restaurant-list">
-      {children}
-    </ul>
+    <ul
+    {...props}
+      className={styles.restaurantGrid}
+    />
   );
 };
 

@@ -1,21 +1,34 @@
 import classnames from 'classnames';
+import { KeyboardEvent } from 'react';
 
 import IconChevron from '../../icons/IconChevron';
 import type { ToggleButtonProps } from './ToggleButton.types';
 
 import styles from './ToggleButton.module.scss';
+import { Button } from '../../Button/Button';
 
-const ToggleButton: React.FC<ToggleButtonProps> = ({ expanded, onToggle }) => {
+const ToggleButton: React.FC<ToggleButtonProps> = ({ expanded, onToggle, 'aria-controls': ariaControls }) => {
+  const handleKeyDown = (event: KeyboardEvent<HTMLButtonElement>) => {
+    if (event.key === 'Enter' || event.key === ' ') {
+      event.preventDefault();
+      onToggle();
+    }
+  };
+
   return (
-    <button
+    <Button
+      variant="ghost"
       onClick={onToggle}
-      aria-expanded={expanded}
-      aria-label={expanded ? 'Collapse section' : 'Expand section'}
+      onKeyDown={handleKeyDown}
       className={styles.toggleButton}
+      aria-label={expanded ? 'Collapse' : 'Expand'}
+      aria-controls={ariaControls}
+      aria-expanded={expanded}
+      data-cy={expanded ? 'collapse-button' : 'expand-button'}
     >
-      <span className={styles.label}>{expanded ? 'Collapse' : 'Expand'}</span>
+      <span>{expanded ? 'Collapse' : 'Expand'}</span>
       <i aria-hidden="true" className={classnames({ [styles.rotate]: expanded })}><IconChevron /></i>
-    </button>
+    </Button>
   );
 }
 

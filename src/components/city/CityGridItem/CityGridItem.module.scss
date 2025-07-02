@@ -1,4 +1,4 @@
-@import '@/styles/breakpoints';
+@use '@/styles/breakpoints' as breakpoints;
 
 .gridItem {
   list-style: none;
@@ -6,23 +6,23 @@
   
   aspect-ratio: 5 / 4;
   
-  @include tablet-only {
+  @include breakpoints.tablet-only {
     aspect-ratio: 6 / 4;
   }
-}
-
-.position-0 {
-  @include tablet-only {
-    aspect-ratio: 10 / 4;
+  
+  &:first-child {
+    @include breakpoints.tablet-only {
+      aspect-ratio: 10 / 4;
+    }
+    
+    @include breakpoints.desktop-up {
+      aspect-ratio: 1 / 1;
+    }
   }
   
-  @include desktop-up {
-    aspect-ratio: 1 / 1;
-  }
-}
-
-.gridItem:not(.position-0) {
-  @include desktop-up {
-    aspect-ratio: 2 / 1;
+  &:not(:first-child) {
+    @include breakpoints.desktop-up {
+      aspect-ratio: 2 / 1;
+    }
   }
 }

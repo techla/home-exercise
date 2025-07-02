@@ -1,12 +1,10 @@
 
+import { ButtonHTMLAttributes } from 'react';
+
 type Variant = 'primary' | 'ghost';
 
-type ButtonProps = {
+type ButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & {
   variant?: Variant;
-  onClick?: () => void;
-  label: string;
-  disabled?: boolean;
-  className?: string;
 };
 
 export type { ButtonProps };

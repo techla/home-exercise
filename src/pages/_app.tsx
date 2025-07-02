@@ -3,6 +3,7 @@
  */
 import React from 'react';
 import type { AppProps } from 'next/app';
+import Head from 'next/head';
 import Link from 'next/link';
 import Image from 'next/image';
 import { Montserrat } from 'next/font/google';
@@ -14,7 +15,9 @@ import {
 } from '@apollo/client';
 
 import '@/styles/reset.css';
+import '@/styles/custom.css';
 import '@/styles/globals.css';
+import '@/styles/globals.ext.css';
 import styles from '@/styles/App.module.css';
 
 const apolloClient = new ApolloClient({
@@ -34,6 +37,9 @@ const montserrat = Montserrat({
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <ApolloProvider client={apolloClient}>
+      <Head>
+        <title>TheFork - Front-end exercise</title>
+      </Head>
       <style jsx global>
         {`
           :root {

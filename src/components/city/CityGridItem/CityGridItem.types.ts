@@ -1,5 +1,4 @@
 type CityGridItemProps = {
-  position: number;
   children: React.ReactNode;
 }
 

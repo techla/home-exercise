@@ -1,4 +1,4 @@
-@import '@/styles/breakpoints';
+@use '@/styles/breakpoints' as breakpoints;
 
 .restaurantGrid {
   display: grid;
@@ -9,14 +9,14 @@
   
   grid-template-columns: 1fr;
   
-  @include tablet-up {
+  @include breakpoints.tablet-up {
     row-gap: var(--core-space-grid-gap-xlarge);
     column-gap: var(--core-space-grid-gap-small);
 
     grid-template-columns: repeat(2, 1fr);
   }
   
-  @include desktop-up {
+  @include breakpoints.desktop-up {
     column-gap: var(--core-space-grid-gap-small);
     row-gap: var(--core-space-grid-gap-large);
     grid-template-columns: repeat(3, 1fr);

@@ -1,16 +1,6 @@
 .toggleButton {
     display: flex;
     align-items: center;
-    gap: var(--core-space-spacing-02);
-    border: none;
-    background: none;
-    text-decoration: underline;
-    cursor: pointer;
-}
-
-.label {
-  font-size: var(--semantic-typography-font-size-text-t2);
-  font-weight: var(--core-typography-font-weight-medium);
 }
 
 .rotate {

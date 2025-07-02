@@ -1,11 +1,13 @@
 import type { CityGridProps } from './CityGrid.types';
 import styles from './CityGrid.module.scss';
 
-const CityGrid: React.FC<CityGridProps> = ({ children }) => {
+const CityGrid: React.FC<CityGridProps> = (props) => {
   return (
-    <ul className={styles.cityGrid} data-testid="city-list">
-      {children}
-    </ul>
+    <ul
+      {...props}
+      className={styles.cityGrid}
+      data-cy="city-list"
+    />
   );
 };
 

@@ -9,7 +9,7 @@ const RestaurantDetails: React.FC<RestaurantDetailsProps> = ({
   averagePrice,
 }) => {
   const nameId = `restaurant-name-${id}`;
-  const formatedAmount = new Intl.NumberFormat('fr-FR', {
+  const formatedAmount = new Intl.NumberFormat('en-US', {
     style: 'currency',
     currency: averagePrice.currency,
     minimumFractionDigits: 0,

@@ -4,6 +4,8 @@
   font-size: var(--semantic-typography-font-size-text-t1);
   font-weight: var(--core-typography-font-weight-medium);
   color: var(--core-color-neutrals-n900);
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 .address {
@@ -12,10 +14,14 @@
   font-weight: var(--core-typography-font-weight-default);
   font-style: normal;
   color: var(--core-color-neutrals-n600);
+  word-break: break-word;
+  overflow-wrap: break-word;
 }
 
 .price {
   font-size: var(--semantic-typography-font-size-text-t3);
   font-weight: var(--core-typography-font-weight-default);
   color: var(--core-color-neutrals-n600);
+  word-break: break-word;
+  overflow-wrap: break-word;
 }

@@ -7,20 +7,15 @@ import styles from './Button.module.scss';
 
 const Button: React.FC<ButtonProps> = ({
   variant = 'primary',
-  label = '',
-  onClick = () => {},
-  disabled = false,
-  className = ''
+  className = '',
+  ...rest
 }: ButtonProps) => {
   return (
     <button
+      {...rest}
       type="button"
       className={classNames(styles.button, styles[variant], className)}
-      onClick={onClick}
-      disabled={disabled}
-    >
-      {label}
-    </button>
+    />
   );
 };
 export { Button };

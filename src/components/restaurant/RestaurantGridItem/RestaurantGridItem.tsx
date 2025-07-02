@@ -1,11 +1,12 @@
 import type { RestaurantGridItemProps } from './RestaurantGridItem.types';
 import styles from './RestaurantGridItem.module.scss';
 
-const RestaurantGridItem: React.FC<RestaurantGridItemProps> = ({ children }) => {
+const RestaurantGridItem: React.FC<RestaurantGridItemProps> = (props) => {
   return (
-    <li className={styles.gridItem}>
-      {children}
-    </li>
+    <li
+      {...props}
+      className={styles.gridItem}
+    />
   );
 };
 

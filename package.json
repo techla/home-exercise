@@ -6,8 +6,13 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "test": "cypress run",
-    "lint": "next lint"
+    "test:e2e": "cypress run",
+    "test:unit": "jest",
+    "test:unit:coverage": "jest --coverage",
+    "test:unit:coverage:open": "npm run test:unit:coverage && open coverage/lcov-report/index.html",
+    "test:all": "npm run test:unit:coverage && npm run test:e2e",
+    "lint": "next lint",
+    "lint:fix": "next lint --fix"
   },
   "dependencies": {
     "classnames": "2.5.1",
@@ -24,14 +29,22 @@
     "@badeball/cypress-cucumber-preprocessor": "22.2.0",
     "@bahmutov/cypress-esbuild-preprocessor": "2.2.5",
     "@eslint/eslintrc": "3",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^14.6.1",
+    "@types/jest": "^30.0.0",
     "@types/node": "22.14.0",
     "@types/prismjs": "1.26.5",
     "@types/react": "19.1.0",
     "@types/react-dom": "19.1.2",
     "cypress": "14.5.0",
+    "cypress-axe": "^1.6.0",
     "eslint": "9.24.0",
     "eslint-config-next": "15.3.0",
     "graphql-tag": "2.12.6",
+    "identity-obj-proxy": "^3.0.0",
+    "jest": "^30.0.3",
+    "jest-environment-jsdom": "^30.0.2",
     "prismjs": "1.30.0",
     "typescript": "5.8.3"
   }

@@ -7,6 +7,12 @@
   background: var(--semantic-color-background-secondary);
 }
 
+.title {
+  font-size: var(--semantic-typography-font-size-heading-h1);
+  font-weight: var(--core-typography-font-weight-extra-bold);
+  color: var(--core-color-neutrals-n900);
+}
+
 .collapsed {
   display: none;
 }

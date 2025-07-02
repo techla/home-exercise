@@ -1,4 +1,4 @@
-@import '@/styles/breakpoints';
+@use '@/styles/breakpoints' as breakpoints;
 
 .cityGrid {
   display: grid;
@@ -9,7 +9,7 @@
   
   grid-template-columns: 1fr;
   
-  @include tablet-up {
+  @include breakpoints.tablet-up {
     column-gap: var(--core-space-grid-gap-small);
     row-gap: var(--core-space-grid-gap-medium);
     grid-template-columns: repeat(2, 1fr);
@@ -19,7 +19,7 @@
     }
   }
   
-  @include desktop-up {
+  @include breakpoints.desktop-up {
     gap: var(--core-space-grid-gap-small);
     grid-template-columns: 1fr 1fr;
 
